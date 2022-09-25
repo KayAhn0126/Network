@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 
 struct GithubProfile: Codable {
@@ -43,7 +41,3 @@ let task = session.dataTask(with: url) { data, response, error in
     }
 }
 task.resume()
-
-
-
-//: [Next](@next)

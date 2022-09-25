@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 
 enum NetworkError: Error {
@@ -77,10 +75,3 @@ network.fetchProfile(userName: "kayahn0126") { result in
         print("Error: \(error)")
     }
 }
-
-
-
-
-
-
-//: [Next](@next)

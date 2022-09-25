@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 import Combine
 
@@ -60,11 +58,3 @@ let subscription = networkService
     } receiveValue: { profile in
         print("profile: \(profile)")
     }
-
-
-
-
-//: [Next](@next)
-
-
-

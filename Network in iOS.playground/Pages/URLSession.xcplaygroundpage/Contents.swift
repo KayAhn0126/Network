@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 
 // configuration -> urlsession -> urlsessionTask
@@ -20,7 +18,3 @@ let task = session.dataTask(with: url) { data, response, error in
     print(result)
 }
 task.resume()
-
-
-
-//: [Next](@next)
